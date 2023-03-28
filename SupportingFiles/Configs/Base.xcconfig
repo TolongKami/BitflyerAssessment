@@ -1,0 +1,10 @@
+//
+//  Base.xcconfig
+//  BitFlyerAssessment
+//
+//  Created by Nanda Julianda Akbar on 28/03/23.
+//
+
+BASE_PRODUCT_NAME = BitFlyerAssessment
+BASE_PRODUCT_BUNDLE_ID = com.nanda.BitFlyerAssessment
+ENDPOINT_DOMAIN = https:/$()/developer.github.com

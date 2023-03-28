@@ -1,0 +1,13 @@
+//
+//  Base-Release.xcconfig
+//  BitFlyerAssessment
+//
+//  Created by Nanda Julianda Akbar on 28/03/23.
+//
+
+DEBUG_INFORMATION_FORMAT = dwarf-with-dsym
+ENABLE_TESTABILITY = NO
+GCC_OPTIMIZATION_LEVEL = s
+GCC_PREPROCESSOR_DEFINITIONS =
+SWIFT_OPTIMIZATION_LEVEL = -O
+VALIDATE_PRODUCT = YES

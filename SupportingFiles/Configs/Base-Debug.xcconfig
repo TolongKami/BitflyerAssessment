@@ -1,0 +1,13 @@
+//
+//  Base-Debug.xcconfig
+//  BitFlyerAssessment
+//
+//  Created by Nanda Julianda Akbar on 28/03/23.
+//
+
+DEBUG_INFORMATION_FORMAT = dwarf
+ENABLE_TESTABILITY = YES
+GCC_OPTIMIZATION_LEVEL = 0
+GCC_PREPROCESSOR_DEFINITIONS = DEBUG=1
+SWIFT_OPTIMIZATION_LEVEL = -Onone
+VALIDATE_PRODUCT = NO

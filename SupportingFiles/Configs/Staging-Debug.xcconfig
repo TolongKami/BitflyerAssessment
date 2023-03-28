@@ -1,0 +1,9 @@
+//
+//  Staging-Debug.xcconfig
+//  BitFlyerAssessment
+//
+//  Created by Nanda Julianda Akbar on 28/03/23.
+//
+
+#include "Staging.xcconfig"
+#include "Base-Debug.xcconfig"

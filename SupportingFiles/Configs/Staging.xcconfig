@@ -1,0 +1,15 @@
+//
+//  Staging.xcconfig
+//  BitFlyerAssessment
+//
+//  Created by Nanda Julianda Akbar on 28/03/23.
+//
+
+#include "Base.xcconfig"
+#include "Version.xcconfig"
+
+PRODUCT_BUNDLE_IDENTIFIER = $(BASE_PRODUCT_BUNDLE_ID).stg
+PRODUCT_NAME = $(BASE_PRODUCT_NAME)_STG
+MARKETING_VERSION = $(MAJOR).$(MINOR).$(PATCH)
+CURRENT_PROJECT_VERSION = $(STAGING_BUILD)
+API_URL = $(ENDPOINT_DOMAIN)

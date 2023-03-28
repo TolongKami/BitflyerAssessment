@@ -1,0 +1,13 @@
+//
+//  Version.xcconfig
+//  BitFlyerAssessment
+//
+//  Created by Nanda Julianda Akbar on 28/03/23.
+//
+
+MAJOR = 1
+MINOR = 0
+PATCH = 0
+
+PRODUCTION_BUILD = 1
+STAGING_BUILD = 1
