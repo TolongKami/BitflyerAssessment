@@ -18,6 +18,10 @@
 		B841183429D37ECB008D1C44 /* NetworkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B841183329D37ECB008D1C44 /* NetworkHandler.swift */; };
 		B841184729D4976E008D1C44 /* NetworkHandler+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B841184629D4976E008D1C44 /* NetworkHandler+Extension.swift */; };
 		B841184929D4A3FB008D1C44 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B841184829D4A3FB008D1C44 /* Endpoint.swift */; };
+		B841185029D4A43A008D1C44 /* GithubRepoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B841184C29D4A43A008D1C44 /* GithubRepoModel.swift */; };
+		B841185129D4A43A008D1C44 /* GithubRepoRepositoryDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = B841184D29D4A43A008D1C44 /* GithubRepoRepositoryDefault.swift */; };
+		B841185229D4A43A008D1C44 /* GIthubRepoEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B841184E29D4A43A008D1C44 /* GIthubRepoEndpoint.swift */; };
+		B841185329D4A43A008D1C44 /* GithubRepoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B841184F29D4A43A008D1C44 /* GithubRepoRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +67,10 @@
 		B841183329D37ECB008D1C44 /* NetworkHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHandler.swift; sourceTree = "<group>"; };
 		B841184629D4976E008D1C44 /* NetworkHandler+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NetworkHandler+Extension.swift"; sourceTree = "<group>"; };
 		B841184829D4A3FB008D1C44 /* Endpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		B841184C29D4A43A008D1C44 /* GithubRepoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubRepoModel.swift; sourceTree = "<group>"; };
+		B841184D29D4A43A008D1C44 /* GithubRepoRepositoryDefault.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubRepoRepositoryDefault.swift; sourceTree = "<group>"; };
+		B841184E29D4A43A008D1C44 /* GIthubRepoEndpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GIthubRepoEndpoint.swift; sourceTree = "<group>"; };
+		B841184F29D4A43A008D1C44 /* GithubRepoRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubRepoRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +122,7 @@
 		B826ACA729D33B7B00FE1628 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				B841184A29D4A43A008D1C44 /* Domain */,
 				B826ACE729D3506F00FE1628 /* Utilities */,
 				B826ACA829D33B7B00FE1628 /* Main.swift */,
 				B826ACED29D36C8500FE1628 /* HomeView.swift */,
@@ -183,6 +192,25 @@
 				B841184629D4976E008D1C44 /* NetworkHandler+Extension.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		B841184A29D4A43A008D1C44 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				B841184B29D4A43A008D1C44 /* GithubRepo */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		B841184B29D4A43A008D1C44 /* GithubRepo */ = {
+			isa = PBXGroup;
+			children = (
+				B841184C29D4A43A008D1C44 /* GithubRepoModel.swift */,
+				B841184D29D4A43A008D1C44 /* GithubRepoRepositoryDefault.swift */,
+				B841184E29D4A43A008D1C44 /* GIthubRepoEndpoint.swift */,
+				B841184F29D4A43A008D1C44 /* GithubRepoRepository.swift */,
+			);
+			path = GithubRepo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -315,11 +343,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B841185229D4A43A008D1C44 /* GIthubRepoEndpoint.swift in Sources */,
+				B841185029D4A43A008D1C44 /* GithubRepoModel.swift in Sources */,
 				B826ACEE29D36C8500FE1628 /* HomeView.swift in Sources */,
 				B826ACA929D33B7B00FE1628 /* Main.swift in Sources */,
+				B841185329D4A43A008D1C44 /* GithubRepoRepository.swift in Sources */,
 				B826ACE929D3508200FE1628 /* Config.swift in Sources */,
 				B841184729D4976E008D1C44 /* NetworkHandler+Extension.swift in Sources */,
 				B841184929D4A3FB008D1C44 /* Endpoint.swift in Sources */,
+				B841185129D4A43A008D1C44 /* GithubRepoRepositoryDefault.swift in Sources */,
 				B841183429D37ECB008D1C44 /* NetworkHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
