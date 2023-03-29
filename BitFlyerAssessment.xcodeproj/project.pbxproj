@@ -17,6 +17,7 @@
 		B826ACEE29D36C8500FE1628 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B826ACED29D36C8500FE1628 /* HomeView.swift */; };
 		B841183429D37ECB008D1C44 /* NetworkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B841183329D37ECB008D1C44 /* NetworkHandler.swift */; };
 		B841184729D4976E008D1C44 /* NetworkHandler+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B841184629D4976E008D1C44 /* NetworkHandler+Extension.swift */; };
+		B841184929D4A3FB008D1C44 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B841184829D4A3FB008D1C44 /* Endpoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		B826ACED29D36C8500FE1628 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		B841183329D37ECB008D1C44 /* NetworkHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHandler.swift; sourceTree = "<group>"; };
 		B841184629D4976E008D1C44 /* NetworkHandler+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NetworkHandler+Extension.swift"; sourceTree = "<group>"; };
+		B841184829D4A3FB008D1C44 /* Endpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				B826ACE829D3508200FE1628 /* Config.swift */,
+				B841184829D4A3FB008D1C44 /* Endpoint.swift */,
 				B841183329D37ECB008D1C44 /* NetworkHandler.swift */,
 				B841184629D4976E008D1C44 /* NetworkHandler+Extension.swift */,
 			);
@@ -316,6 +319,7 @@
 				B826ACA929D33B7B00FE1628 /* Main.swift in Sources */,
 				B826ACE929D3508200FE1628 /* Config.swift in Sources */,
 				B841184729D4976E008D1C44 /* NetworkHandler+Extension.swift in Sources */,
+				B841184929D4A3FB008D1C44 /* Endpoint.swift in Sources */,
 				B841183429D37ECB008D1C44 /* NetworkHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
