@@ -14,6 +14,10 @@ enum HttpMethod: String {
     case delete = "DELETE"
 }
 
+fileprivate struct GithubError: Codable {
+    let message: String
+}
+
 final class NetworkHandler {
     
     private var urlSessionConfig: URLSessionConfiguration {
@@ -79,7 +83,13 @@ final class NetworkHandler {
         let statusCode = validResponse.statusCode
         
         guard statusCode >= 200 && statusCode < 300 && !data.isEmpty else {
-            throw resultError
+            throw NSError(
+                domain: "NetworkHandler",
+                code: statusCode,
+                userInfo: [
+                    NSLocalizedDescriptionKey: encodeError(from: data)
+                ]
+            )
         }
         
         let jsonDecoder = JSONDecoder()
@@ -131,6 +141,17 @@ final class NetworkHandler {
         }
         
         return request
+    }
+    
+    private func encodeError(from data: Data) -> String {
+        
+        let jsonDecoder = JSONDecoder()
+        do {
+            let output = try jsonDecoder.decode(GithubError.self, from: data)
+            return output.message
+        } catch let exception {
+            return exception.localizedDescription
+        }
     }
     
 }
