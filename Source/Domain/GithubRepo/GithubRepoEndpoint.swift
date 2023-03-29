@@ -1,5 +1,5 @@
 //
-//  GIthubRepoEndpoint.swift
+//  GithubRepoEndpoint.swift
 //  Main
 //
 //  Created by Nanda Julianda Akbar on 29/03/23.
