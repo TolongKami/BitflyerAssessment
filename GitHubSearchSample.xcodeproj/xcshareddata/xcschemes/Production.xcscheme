@@ -15,15 +15,15 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B826ACA429D33B7B00FE1628"
-               BuildableName = "BitFlyerAssessment.app"
+               BuildableName = "GitHubSearchSample.app"
                BlueprintName = "Main"
-               ReferencedContainer = "container:BitFlyerAssessment.xcodeproj">
+               ReferencedContainer = "container:GitHubSearchSample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
-      buildConfiguration = "STAGING_DEBUG"
+      buildConfiguration = "PRODUCTION_DEBUG"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
@@ -34,9 +34,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B826ACB429D33B7D00FE1628"
-               BuildableName = "BitFlyerAssessment_UnitTests.xctest"
+               BuildableName = "GitHubSearchSample_UnitTests.xctest"
                BlueprintName = "UnitTests"
-               ReferencedContainer = "container:BitFlyerAssessment.xcodeproj">
+               ReferencedContainer = "container:GitHubSearchSample.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -45,15 +45,15 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B826ACBE29D33B7D00FE1628"
-               BuildableName = "BitFlyerAssessment_UITests.xctest"
+               BuildableName = "GitHubSearchSample_UITests.xctest"
                BlueprintName = "UITests"
-               ReferencedContainer = "container:BitFlyerAssessment.xcodeproj">
+               ReferencedContainer = "container:GitHubSearchSample.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "STAGING_DEBUG"
+      buildConfiguration = "PRODUCTION_DEBUG"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -67,14 +67,14 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B826ACA429D33B7B00FE1628"
-            BuildableName = "BitFlyerAssessment.app"
+            BuildableName = "GitHubSearchSample.app"
             BlueprintName = "Main"
-            ReferencedContainer = "container:BitFlyerAssessment.xcodeproj">
+            ReferencedContainer = "container:GitHubSearchSample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
-      buildConfiguration = "STAGING_RELEASE"
+      buildConfiguration = "PRODUCTION_RELEASE"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
@@ -84,17 +84,17 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B826ACA429D33B7B00FE1628"
-            BuildableName = "BitFlyerAssessment.app"
+            BuildableName = "GitHubSearchSample.app"
             BlueprintName = "Main"
-            ReferencedContainer = "container:BitFlyerAssessment.xcodeproj">
+            ReferencedContainer = "container:GitHubSearchSample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
-      buildConfiguration = "STAGING_DEBUG">
+      buildConfiguration = "PRODUCTION_DEBUG">
    </AnalyzeAction>
    <ArchiveAction
-      buildConfiguration = "STAGING_RELEASE"
+      buildConfiguration = "PRODUCTION_RELEASE"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>

@@ -10,9 +10,9 @@
 		B826ACA929D33B7B00FE1628 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B826ACA829D33B7B00FE1628 /* Main.swift */; };
 		B826ACAD29D33B7D00FE1628 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B826ACAC29D33B7D00FE1628 /* Assets.xcassets */; };
 		B826ACB029D33B7D00FE1628 /* PreviewAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B826ACAF29D33B7D00FE1628 /* PreviewAssets.xcassets */; };
-		B826ACBA29D33B7D00FE1628 /* BitFlyerAssessmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B826ACB929D33B7D00FE1628 /* BitFlyerAssessmentTests.swift */; };
-		B826ACC429D33B7D00FE1628 /* BitFlyerAssessmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B826ACC329D33B7D00FE1628 /* BitFlyerAssessmentUITests.swift */; };
-		B826ACC629D33B7D00FE1628 /* BitFlyerAssessmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B826ACC529D33B7D00FE1628 /* BitFlyerAssessmentUITestsLaunchTests.swift */; };
+		B826ACBA29D33B7D00FE1628 /* GitHubSearchSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B826ACB929D33B7D00FE1628 /* GitHubSearchSampleTests.swift */; };
+		B826ACC429D33B7D00FE1628 /* GitHubSearchSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B826ACC329D33B7D00FE1628 /* GitHubSearchSampleUITests.swift */; };
+		B826ACC629D33B7D00FE1628 /* GitHubSearchSampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B826ACC529D33B7D00FE1628 /* GitHubSearchSampleUITestsLaunchTests.swift */; };
 		B826ACE929D3508200FE1628 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = B826ACE829D3508200FE1628 /* Config.swift */; };
 		B826ACEE29D36C8500FE1628 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B826ACED29D36C8500FE1628 /* HomeView.swift */; };
 		B841183429D37ECB008D1C44 /* NetworkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B841183329D37ECB008D1C44 /* NetworkHandler.swift */; };
@@ -30,27 +30,27 @@
 			containerPortal = B826AC9D29D33B7B00FE1628 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B826ACA429D33B7B00FE1628;
-			remoteInfo = BitFlyerAssessment;
+			remoteInfo = GitHubSearchSample;
 		};
 		B826ACC029D33B7D00FE1628 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B826AC9D29D33B7B00FE1628 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B826ACA429D33B7B00FE1628;
-			remoteInfo = BitFlyerAssessment;
+			remoteInfo = GitHubSearchSample;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B826ACA529D33B7B00FE1628 /* BitFlyerAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitFlyerAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B826ACA529D33B7B00FE1628 /* GitHubSearchSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubSearchSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B826ACA829D33B7B00FE1628 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		B826ACAC29D33B7D00FE1628 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B826ACAF29D33B7D00FE1628 /* PreviewAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = PreviewAssets.xcassets; sourceTree = "<group>"; };
-		B826ACB529D33B7D00FE1628 /* BitFlyerAssessment_UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitFlyerAssessment_UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B826ACB929D33B7D00FE1628 /* BitFlyerAssessmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitFlyerAssessmentTests.swift; sourceTree = "<group>"; };
-		B826ACBF29D33B7D00FE1628 /* BitFlyerAssessment_UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitFlyerAssessment_UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B826ACC329D33B7D00FE1628 /* BitFlyerAssessmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitFlyerAssessmentUITests.swift; sourceTree = "<group>"; };
-		B826ACC529D33B7D00FE1628 /* BitFlyerAssessmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitFlyerAssessmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B826ACB529D33B7D00FE1628 /* GitHubSearchSample_UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitHubSearchSample_UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B826ACB929D33B7D00FE1628 /* GitHubSearchSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubSearchSampleTests.swift; sourceTree = "<group>"; };
+		B826ACBF29D33B7D00FE1628 /* GitHubSearchSample_UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitHubSearchSample_UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B826ACC329D33B7D00FE1628 /* GitHubSearchSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubSearchSampleUITests.swift; sourceTree = "<group>"; };
+		B826ACC529D33B7D00FE1628 /* GitHubSearchSampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubSearchSampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B826ACD429D342FA00FE1628 /* Production.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Production.xcconfig; sourceTree = "<group>"; };
 		B826ACD529D3431200FE1628 /* Staging.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Staging.xcconfig; sourceTree = "<group>"; };
 		B826ACD629D3432500FE1628 /* Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Base.xcconfig; sourceTree = "<group>"; };
@@ -112,9 +112,9 @@
 		B826ACA629D33B7B00FE1628 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B826ACA529D33B7B00FE1628 /* BitFlyerAssessment.app */,
-				B826ACB529D33B7D00FE1628 /* BitFlyerAssessment_UnitTests.xctest */,
-				B826ACBF29D33B7D00FE1628 /* BitFlyerAssessment_UITests.xctest */,
+				B826ACA529D33B7B00FE1628 /* GitHubSearchSample.app */,
+				B826ACB529D33B7D00FE1628 /* GitHubSearchSample_UnitTests.xctest */,
+				B826ACBF29D33B7D00FE1628 /* GitHubSearchSample_UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -141,7 +141,7 @@
 		B826ACB829D33B7D00FE1628 /* UnitTests */ = {
 			isa = PBXGroup;
 			children = (
-				B826ACB929D33B7D00FE1628 /* BitFlyerAssessmentTests.swift */,
+				B826ACB929D33B7D00FE1628 /* GitHubSearchSampleTests.swift */,
 			);
 			path = UnitTests;
 			sourceTree = "<group>";
@@ -149,8 +149,8 @@
 		B826ACC229D33B7D00FE1628 /* UITests */ = {
 			isa = PBXGroup;
 			children = (
-				B826ACC329D33B7D00FE1628 /* BitFlyerAssessmentUITests.swift */,
-				B826ACC529D33B7D00FE1628 /* BitFlyerAssessmentUITestsLaunchTests.swift */,
+				B826ACC329D33B7D00FE1628 /* GitHubSearchSampleUITests.swift */,
+				B826ACC529D33B7D00FE1628 /* GitHubSearchSampleUITestsLaunchTests.swift */,
 			);
 			path = UITests;
 			sourceTree = "<group>";
@@ -229,8 +229,8 @@
 			dependencies = (
 			);
 			name = Main;
-			productName = BitFlyerAssessment;
-			productReference = B826ACA529D33B7B00FE1628 /* BitFlyerAssessment.app */;
+			productName = GitHubSearchSample;
+			productReference = B826ACA529D33B7B00FE1628 /* GitHubSearchSample.app */;
 			productType = "com.apple.product-type.application";
 		};
 		B826ACB429D33B7D00FE1628 /* UnitTests */ = {
@@ -247,8 +247,8 @@
 				B826ACB729D33B7D00FE1628 /* PBXTargetDependency */,
 			);
 			name = UnitTests;
-			productName = BitFlyerAssessmentTests;
-			productReference = B826ACB529D33B7D00FE1628 /* BitFlyerAssessment_UnitTests.xctest */;
+			productName = GitHubSearchSampleTests;
+			productReference = B826ACB529D33B7D00FE1628 /* GitHubSearchSample_UnitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		B826ACBE29D33B7D00FE1628 /* UITests */ = {
@@ -265,8 +265,8 @@
 				B826ACC129D33B7D00FE1628 /* PBXTargetDependency */,
 			);
 			name = UITests;
-			productName = BitFlyerAssessmentUITests;
-			productReference = B826ACBF29D33B7D00FE1628 /* BitFlyerAssessment_UITests.xctest */;
+			productName = GitHubSearchSampleUITests;
+			productReference = B826ACBF29D33B7D00FE1628 /* GitHubSearchSample_UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -292,7 +292,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B826ACA029D33B7B00FE1628 /* Build configuration list for PBXProject "BitFlyerAssessment" */;
+			buildConfigurationList = B826ACA029D33B7B00FE1628 /* Build configuration list for PBXProject "GitHubSearchSample" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -360,7 +360,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B826ACBA29D33B7D00FE1628 /* BitFlyerAssessmentTests.swift in Sources */,
+				B826ACBA29D33B7D00FE1628 /* GitHubSearchSampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,8 +368,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B826ACC429D33B7D00FE1628 /* BitFlyerAssessmentUITests.swift in Sources */,
-				B826ACC629D33B7D00FE1628 /* BitFlyerAssessmentUITestsLaunchTests.swift in Sources */,
+				B826ACC429D33B7D00FE1628 /* GitHubSearchSampleUITests.swift in Sources */,
+				B826ACC629D33B7D00FE1628 /* GitHubSearchSampleUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -566,11 +566,10 @@
 				DEVELOPMENT_TEAM = BZ5D9URT5U;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nanda.BitFlyerAssessmentTests;
-				PRODUCT_NAME = BitFlyerAssessment_UnitTests;
+				PRODUCT_NAME = GitHubSearchSample_UnitTests;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitFlyerAssessment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BitFlyerAssessment";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GitHubSearchSample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GitHubSearchSample";
 			};
 			name = PRODUCTION_DEBUG;
 		};
@@ -585,11 +584,10 @@
 				DEVELOPMENT_TEAM = BZ5D9URT5U;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nanda.BitFlyerAssessmentTests;
-				PRODUCT_NAME = BitFlyerAssessment_UnitTests;
+				PRODUCT_NAME = GitHubSearchSample_UnitTests;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitFlyerAssessment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BitFlyerAssessment";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GitHubSearchSample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GitHubSearchSample";
 			};
 			name = PRODUCTION_RELEASE;
 		};
@@ -603,8 +601,7 @@
 				DEVELOPMENT_TEAM = BZ5D9URT5U;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nanda.BitFlyerAssessmentUITests;
-				PRODUCT_NAME = BitFlyerAssessment_UITests;
+				PRODUCT_NAME = GitHubSearchSample_UITests;
 				PROVISIONING_PROFILE = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -622,8 +619,7 @@
 				DEVELOPMENT_TEAM = BZ5D9URT5U;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nanda.BitFlyerAssessmentUITests;
-				PRODUCT_NAME = BitFlyerAssessment_UITests;
+				PRODUCT_NAME = GitHubSearchSample_UITests;
 				PROVISIONING_PROFILE = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -722,11 +718,10 @@
 				DEVELOPMENT_TEAM = BZ5D9URT5U;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nanda.BitFlyerAssessmentTests;
-				PRODUCT_NAME = BitFlyerAssessment_UnitTests;
+				PRODUCT_NAME = GitHubSearchSample_UnitTests;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitFlyerAssessment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BitFlyerAssessment";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GitHubSearchSample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GitHubSearchSample";
 			};
 			name = STAGING_DEBUG;
 		};
@@ -740,8 +735,7 @@
 				DEVELOPMENT_TEAM = BZ5D9URT5U;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nanda.BitFlyerAssessmentUITests;
-				PRODUCT_NAME = BitFlyerAssessment_UITests;
+				PRODUCT_NAME = GitHubSearchSample_UITests;
 				PROVISIONING_PROFILE = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -840,11 +834,10 @@
 				DEVELOPMENT_TEAM = BZ5D9URT5U;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nanda.BitFlyerAssessmentTests;
-				PRODUCT_NAME = BitFlyerAssessment_UnitTests;
+				PRODUCT_NAME = GitHubSearchSample_UnitTests;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitFlyerAssessment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BitFlyerAssessment";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GitHubSearchSample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GitHubSearchSample";
 			};
 			name = STAGING_RELEASE;
 		};
@@ -858,8 +851,7 @@
 				DEVELOPMENT_TEAM = BZ5D9URT5U;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nanda.BitFlyerAssessmentUITests;
-				PRODUCT_NAME = BitFlyerAssessment_UITests;
+				PRODUCT_NAME = GitHubSearchSample_UITests;
 				PROVISIONING_PROFILE = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -870,7 +862,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B826ACA029D33B7B00FE1628 /* Build configuration list for PBXProject "BitFlyerAssessment" */ = {
+		B826ACA029D33B7B00FE1628 /* Build configuration list for PBXProject "GitHubSearchSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B826ACC729D33B7D00FE1628 /* PRODUCTION_DEBUG */,

@@ -1,13 +1,13 @@
 //
-//  BitFlyerAssessmentUITests.swift
-//  BitFlyerAssessmentUITests
+//  GitHubSearchSampleUITests.swift
+//  GitHubSearchSampleUITests
 //
 //  Created by Nanda Julianda Akbar on 28/03/23.
 //
 
 import XCTest
 
-final class BitFlyerAssessmentUITests: XCTestCase {
+final class GitHubSearchSampleUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

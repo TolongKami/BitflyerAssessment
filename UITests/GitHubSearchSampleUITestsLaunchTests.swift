@@ -1,13 +1,13 @@
 //
-//  BitFlyerAssessmentUITestsLaunchTests.swift
-//  BitFlyerAssessmentUITests
+//  GitHubSearchSampleUITestsLaunchTests.swift
+//  GitHubSearchSampleUITests
 //
 //  Created by Nanda Julianda Akbar on 28/03/23.
 //
 
 import XCTest
 
-final class BitFlyerAssessmentUITestsLaunchTests: XCTestCase {
+final class GitHubSearchSampleUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
