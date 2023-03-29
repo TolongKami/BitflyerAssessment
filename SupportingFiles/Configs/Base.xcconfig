@@ -7,4 +7,4 @@
 
 BASE_PRODUCT_NAME = BitFlyerAssessment
 BASE_PRODUCT_BUNDLE_ID = com.nanda.BitFlyerAssessment
-ENDPOINT_DOMAIN = https:/$()/developer.github.com
+ENDPOINT_DOMAIN = https:/$()/api.github.com

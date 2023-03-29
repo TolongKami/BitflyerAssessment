@@ -11,7 +11,8 @@ fileprivate enum ConfigKeys: String {
     case appName = "CFBundleDisplayName"
     case appBundleID = "CFBundleIdentifier"
     case appVersion = "CFBundleShortVersionString"
-    case baseApiURL = "ApiURL"
+    case apiURL = "ApiURL"
+    case apiAccessToken = "ApiAccessToken"
 }
 
 fileprivate final class PlistUtils {
@@ -38,6 +39,7 @@ internal enum Config {
     static let appName = PlistUtils.getValue(from: ConfigKeys.appName)
     static let appVersion = PlistUtils.getValue(from: ConfigKeys.appVersion)
     static let appBundleID = PlistUtils.getValue(from: ConfigKeys.appBundleID)
-    static let baseApiURL = PlistUtils.getValue(from: ConfigKeys.baseApiURL)
+    static let apiURL = PlistUtils.getValue(from: ConfigKeys.apiURL)
+    static let apiAccessToken = PlistUtils.getValue(from: ConfigKeys.apiAccessToken)
     
 }
