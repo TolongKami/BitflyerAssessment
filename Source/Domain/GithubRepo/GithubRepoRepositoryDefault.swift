@@ -9,7 +9,7 @@ import Foundation
 
 struct GithubRepoRepositoryDefault: GithubRepoRepository {
     
-    func search(repoName: String) async throws -> GithubRepoModel {
+    func search(repoName: String) async throws -> [GithubItemModel] {
         
         do {
             
@@ -21,7 +21,7 @@ struct GithubRepoRepositoryDefault: GithubRepoRepository {
                 .set(parameter: ["q": repoName])
                 .execute(method: method)
             
-            return response
+            return response.items
         } catch let exception {
             throw exception
         }

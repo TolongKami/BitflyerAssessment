@@ -9,6 +9,6 @@ import Foundation
 
 protocol GithubRepoRepository {
     
-    func search(repoName: String) async throws -> GithubRepoModel
+    func search(repoName: String) async throws -> [GithubItemModel]
     
 }
