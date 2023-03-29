@@ -48,7 +48,7 @@ final class NetworkHandler {
         return self
     }
     
-    public func execute<T: Codable>(method: HttpMethod) async throws -> T? {
+    public func execute<T: Codable>(method: HttpMethod) async throws -> T {
         
         guard let request = configureRequest(method: method) else {
             let error = NSError(
@@ -64,14 +64,22 @@ final class NetworkHandler {
         
         let (data, response) = try await urlSession.data(for: request)
         
+        let resultError = NSError(
+            domain: "NetworkHandler",
+            code: -1,
+            userInfo: [
+                NSLocalizedDescriptionKey: "Failed to obtain result"
+            ]
+        )
+        
         guard let validResponse = response as? HTTPURLResponse else {
-            return nil
+            throw resultError
         }
         
         let statusCode = validResponse.statusCode
         
         guard statusCode >= 200 && statusCode < 300 && !data.isEmpty else {
-            return nil
+            throw resultError
         }
         
         let jsonDecoder = JSONDecoder()
@@ -105,12 +113,10 @@ final class NetworkHandler {
         case (true, .get):
             
             var urlComponents = URLComponents(string: url)
-            parameters.forEach ({ (parameter: [String: Any]) in
-                parameter.forEach { (key: String, value: Any) in
-                    let queryItem = URLQueryItem(name: key, value: value as? String)
-                    urlComponents?.queryItems?.append(queryItem)
+            urlComponents?.queryItems = parameters.flatMap ({ (parameter: [String: Any]) -> [URLQueryItem] in
+                return parameter.map { (key: String, value: Any) -> URLQueryItem in
+                    return URLQueryItem(name: key, value: value as? String)
                 }
-                
             })
             
             request.url = urlComponents?.url
